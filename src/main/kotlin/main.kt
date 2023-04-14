@@ -2,7 +2,6 @@ fun main(){
     val result = calculateCommission("visa", 100000, 12000 )
     println("Сумма комиссии: $result")
 
-
 }
 
 fun calculateCommission(cardType: String = "VK Pay", purchaseAmount: Int, purchaseAmountMonth: Int = 0): Int? {
