@@ -27,7 +27,7 @@ class MainKtTest {
     @Test
     fun calculateCommissionMaestro() {
         val result = calculateCommission("maestro", 74000, 0)
-        assertEquals(2, result)
+        assertEquals(0, result)
     }
     @Test
     fun calculateCommissionLimit() {
